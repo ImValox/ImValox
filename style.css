@@ -59,6 +59,7 @@ aside {
 
   section {
     box-shadow: none !important;
+
   }
 
   section h2{
@@ -108,6 +109,7 @@ section {
     padding: 20px;
     border-radius: 1.5em;
     box-shadow: inset 2px 2px 2px rgba(141, 141, 141, 0.2);
+
 }
 
 section .aboutme {
@@ -257,6 +259,11 @@ aside hr {
 
 .contact-info .text-content p{
   margin: 0;
+}
+
+.contact-info .text-content p a {
+  color: white;
+  text-decoration: none;
 }
 
 .contact-info .text-content span{
@@ -428,7 +435,7 @@ hr {
 .direction-r .flag:before {
   position: absolute;
   top: 50%;
-  right: -40px;
+  right: -80px;
   content: ' ';
   display: block;
   width: 12px;
@@ -441,7 +448,7 @@ hr {
 }
 
 .direction-r .flag:before {
-  left: -40px;
+  left: -60px;
 }
 
 .direction-l .flag:after {
