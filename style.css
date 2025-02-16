@@ -306,27 +306,27 @@ h3 {
   margin-top: 30px;
 }
 
-.education ul {
+.formation ul {
   list-style-type: none;
   padding: 0;
 }
 
-.education li {
+.formation li {
   margin-bottom: 30px;
 }
 
-.education h4 {
+.formation h4 {
   color: #fbe6b9;
   margin: 0 0 5px;
   font-size: 18px;
 }
 
-.education p {
+.formation p {
   margin: 5px 0;
   font-size: 14px;
 }
 
-.education p:first-of-type {
+.formation p:first-of-type {
   color: #888;
 }
 
@@ -352,6 +352,7 @@ hr {
   padding: 20px 0;
   width: 90%;
 }
+
 
 .timeline::before {
   content: '';
@@ -418,6 +419,16 @@ hr {
   color: #949494;
   margin-bottom: 10px;
   display: block;
+}
+
+.timeline-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.timeline-content ul li {
+  margin-bottom: 5px;
 }
 
 /* Responsive adjustments */
@@ -724,6 +735,7 @@ hr {
   border-radius: 8px;
   background-color: #3f3f3f;
   box-sizing: border-box;
+  color: white;
 }
 
 #contact-form button[type="submit"] {
