@@ -111,6 +111,7 @@ section {
     padding: 20px;
     border-radius: 1.5em;
     box-shadow: inset 2px 2px 2px rgba(141, 141, 141, 0.2);
+    height:  calc(100% - 40px) ;
 
 }
 
@@ -298,7 +299,19 @@ aside hr {
 
 h2 {
   font-size: 28px;
-  border-bottom: 1px solid #1d1d1d;
+  margin: 60px 0 20px;
+  position: relative;
+  display: inline-block; /* Ajouté pour que la largeur du pseudo-élément corresponde à la largeur du texte */
+}
+
+h2::after {
+  content: '';
+  display: block;
+  height: 0.15em;
+  width: 100%; /* La largeur du pseudo-élément correspond à la largeur du texte */
+  background-color: #fbe6b9;
+  border-radius: 1em;
+  margin-top: 10px;
 }
 
 h3 {

@@ -79,63 +79,23 @@
                     <ul>
                         <li><a href="#" data-target="about" class="nav-active">Infos</a></li>
                         <li><a href="#" data-target="resume">Parcours</a></li>
-                        <li><a href="#" data-target="portfolio">Portfolio</a></li>
+                        <li><a href="#" data-target="experiences">Experiences</a></li>
+                        <li><a href="#" data-target="competences">Compétences</a></li>
+                        <li><a href="#" data-target="portfolio">Projets</a></li>
                         <!-- <li><a href="#" data-target="blog">Blog</a></li> -->
                         <li><a href="#" data-target="contact">Contact</a></li>
                     </ul>
             </nav>
             <section id="about" class="active">
-                <h2>A propos</h2>
-                <hr class="minihr">
+                <h2>Mon profil</h2>
                 <p class="aboutme">Étudiant en 1ᵉ année de BUT Informatique à l'IUT de Laval, je
                     recherche une alternance pour une durée de 2 ans à partir de
                     septembre 2025 en développement informatique.</p>
                 <hr>
-                <div class="whatido">
-                    <h3>Qu'est ce que je fais</h3>
-                    <div class="boxes">
-                        <div class="box">
-                            <div class="header-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M17 15h-5m-5-5l.234.195c1.282 1.068 1.923 1.602 1.923 2.305s-.64 1.237-1.923 2.305L7 15"/><path d="M22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12s0-7.071 1.464-8.536C4.93 2 7.286 2 12 2s7.071 0 8.535 1.464c.974.974 1.3 2.343 1.41 4.536"/></g></svg>
-                                <h4>Langages de programmation</h4>
-                            </div>
-                            <p>Python, Java, C#, C, JavaScript, HTML/CSS, SQL</p>
-                        </div>
-                        <div class="box">
-                            <div class="header-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.85 2L9.09 9.77l-4.9-3.86L2.05 7v10l2.15 1.09l4.93-3.85L16.87 22L22 19.93V4ZM4.37 14.3V9.65l2.44 2.43Zm12.33 1.29L12.05 12l4.65-3.59Z"/></svg>
-                                <h4>Environnements et Outils</h4>
-                            </div>
-                            <p> IDE : Visual Studio Code, IntelliJ IDEA, Eclipse <br>
-                                Bases de données : MySQL <br>
-                                Outils : Git, Docker <br>
-                                Bureautique : Microsoft Office, Docs
-                                </p>
-                        </div>
-                        <div class="box">
-                            <div class="header-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h8m-6 10h6M3 3v16a2 2 0 0 0 2 2h16M8 11h7"/></svg>
-                                <h4>Gestion de Projet</h4>
-                            </div>
-                            <p>Outils : Gantt, PERT <br>
-                            Documentation : Cahier des charges,dossiers d’analyse des besoins
-                            </p>
-                        </div>
-                        <div class="box">
-                            <div class="header-box">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6"/></svg>
-                                <h4>Langues</h4>
-                            </div>
-                            <p>Anglais : Niveau B2 (Autonome) <br>
-                               Espagnol : Niveau A2 (Notions)                                
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                
             </section>
             <section id="resume" class="hidden">
-                <h2>Parcours Professionnel</h2>
-                <hr class="minihr">
+                <h2>Mon Parcours</h2>
                 <div class="formation">
                     <h3>Formation</h3>
                     <ul>
@@ -151,8 +111,61 @@
                             <p>Baccalauréat STI2D Mention Assez Bien.</p>
                         </li>
                     </ul>
-                    <hr>
+                    
                 </div>
+            </section>
+            <section id="portfolio" class="hidden portfolio">
+                <h2>Portfolio</h2>
+                <p class="aboutme">J'ai déjà réalisé plusieurs projets sur mon temps libre, parmis eux j'en partage quelque uns.</p>
+                <div class="portfolio-categories">
+                    <button class="category-btn" data-category="all">Tous</button>
+                    <button class="category-btn" data-category="programmation">Programmation</button>
+                    <button class="category-btn" data-category="applications">Applications</button>
+                    <button class="category-btn" data-category="web-development">Développement Web</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item applications">
+                        <div class="loupe-icon">
+                            <a href="https://slash-mod.fr/files/generacard.msi" target="_blank" rel="noopener noreferrer"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M6.25 5C5.56 5 5 5.56 5 6.25v11.5c0 .69.56 1.25 1.25 1.25h11.5c.69 0 1.25-.56 1.25-1.25V14a1 1 0 1 1 2 0v3.75A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3H10a1 1 0 1 1 0 2zM14 5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L17.586 5z" />
+                                </svg></a>
+                            <img src="Generacard.png"
+                                alt="Projet Generacard">
+                        </div>
+                        <h3>Généracard</h3>
+                        <p>Généracard est une application avec Tauri.</p>
+                    </div>
+                    <div class="portfolio-item programmation">
+                        <div class="loupe-icon">
+                            <a href="https://github.com/ImValox" target="_blank" rel="noopener noreferrer"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M6.25 5C5.56 5 5 5.56 5 6.25v11.5c0 .69.56 1.25 1.25 1.25h11.5c.69 0 1.25-.56 1.25-1.25V14a1 1 0 1 1 2 0v3.75A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3H10a1 1 0 1 1 0 2zM14 5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L17.586 5z" />
+                                </svg></a>
+                            <img src="pilulier.jpg"
+                                alt="Projet pilulier">
+                        </div>
+                        <h3>Pilulier Connecté</h3>
+                        <p>Projet de Terminal d'un pilulier connecté.</p>
+                    </div>
+                    <div class="portfolio-item web-development">
+                        <div class="loupe-icon">
+                            <a href="https://slash-mod.fr" target="_blank" rel="noopener noreferrer"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="M6.25 5C5.56 5 5 5.56 5 6.25v11.5c0 .69.56 1.25 1.25 1.25h11.5c.69 0 1.25-.56 1.25-1.25V14a1 1 0 1 1 2 0v3.75A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3H10a1 1 0 1 1 0 2zM14 5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L17.586 5z" />
+                                </svg></a>
+                            <img src="slash-mod.png"
+                                alt="Projet slash mod">
+                        </div>
+                        <h3>Slash Mod</h3>
+                        <p>Site d'un groupe d'informatique.</p>
+                    </div>
+            </section>
+            <section id="experiences" class="hidden">
+                <h2>Mes Experiences</h2>
                 <div class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-content">
@@ -206,6 +219,50 @@
                         </div>
                     </div>
                 </div>
+            </section> 
+            <section id="competences" class="hidden">
+                <h2>Mes Experiences</h2>
+                <div class="whatido">
+                    <h3>Qu'est ce que je fais</h3>
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="header-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M17 15h-5m-5-5l.234.195c1.282 1.068 1.923 1.602 1.923 2.305s-.64 1.237-1.923 2.305L7 15"/><path d="M22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12s0-7.071 1.464-8.536C4.93 2 7.286 2 12 2s7.071 0 8.535 1.464c.974.974 1.3 2.343 1.41 4.536"/></g></svg>
+                                <h4>Langages de programmation</h4>
+                            </div>
+                            <p>Python, Java, C#, C, JavaScript, HTML/CSS, SQL</p>
+                        </div>
+                        <div class="box">
+                            <div class="header-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.85 2L9.09 9.77l-4.9-3.86L2.05 7v10l2.15 1.09l4.93-3.85L16.87 22L22 19.93V4ZM4.37 14.3V9.65l2.44 2.43Zm12.33 1.29L12.05 12l4.65-3.59Z"/></svg>
+                                <h4>Environnements et Outils</h4>
+                            </div>
+                            <p> IDE : Visual Studio Code, IntelliJ IDEA, Eclipse <br>
+                                Bases de données : MySQL <br>
+                                Outils : Git, Docker <br>
+                                Bureautique : Microsoft Office, Docs
+                                </p>
+                        </div>
+                        <div class="box">
+                            <div class="header-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h8m-6 10h6M3 3v16a2 2 0 0 0 2 2h16M8 11h7"/></svg>
+                                <h4>Gestion de Projet</h4>
+                            </div>
+                            <p>Outils : Gantt, PERT <br>
+                            Documentation : Cahier des charges,dossiers d’analyse des besoins
+                            </p>
+                        </div>
+                        <div class="box">
+                            <div class="header-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6"/></svg>
+                                <h4>Langues</h4>
+                            </div>
+                            <p>Anglais : Niveau B2 (Autonome) <br>
+                               Espagnol : Niveau A2 (Notions)                                
+                            </p>
+                        </div>
+                    </div>
+                </div> 
                 <hr>
                 <div class="skills">
                     <h3>Compétences</h3>
@@ -249,60 +306,8 @@
                     </ul>
                 </div>
             </section>
-            <section id="portfolio" class="hidden portfolio">
-                <h2>Portfolio</h2>
-                <hr class="minihr">
-                <p class="aboutme">J'ai déjà réalisé plusieurs projets sur mon temps libre, parmis eux j'en partage quelque uns.</p>
-                <div class="portfolio-categories">
-                    <button class="category-btn" data-category="all">Tous</button>
-                    <button class="category-btn" data-category="programmation">Programmation</button>
-                    <button class="category-btn" data-category="applications">Applications</button>
-                    <button class="category-btn" data-category="web-development">Développement Web</button>
-                </div>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item applications">
-                        <div class="loupe-icon">
-                            <a href="https://slash-mod.fr/files/generacard.msi" target="_blank" rel="noopener noreferrer"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M6.25 5C5.56 5 5 5.56 5 6.25v11.5c0 .69.56 1.25 1.25 1.25h11.5c.69 0 1.25-.56 1.25-1.25V14a1 1 0 1 1 2 0v3.75A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3H10a1 1 0 1 1 0 2zM14 5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L17.586 5z" />
-                                </svg></a>
-                            <img src="Generacard.png"
-                                alt="Projet Generacard">
-                        </div>
-                        <h3>Généracard</h3>
-                        <p>Généracard est une application avec Tauri.</p>
-                    </div>
-                    <div class="portfolio-item programmation">
-                        <div class="loupe-icon">
-                            <a href="https://github.com/ImValox" target="_blank" rel="noopener noreferrer"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M6.25 5C5.56 5 5 5.56 5 6.25v11.5c0 .69.56 1.25 1.25 1.25h11.5c.69 0 1.25-.56 1.25-1.25V14a1 1 0 1 1 2 0v3.75A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3H10a1 1 0 1 1 0 2zM14 5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L17.586 5z" />
-                                </svg></a>
-                            <img src="pilulier.jpg"
-                                alt="Projet pilulier">
-                        </div>
-                        <h3>Pilulier Connecté</h3>
-                        <p>Projet de Terminal d'un pilulier connecté.</p>
-                    </div>
-                    <div class="portfolio-item web-development">
-                        <div class="loupe-icon">
-                            <a href="https://slash-mod.fr" target="_blank" rel="noopener noreferrer"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M6.25 5C5.56 5 5 5.56 5 6.25v11.5c0 .69.56 1.25 1.25 1.25h11.5c.69 0 1.25-.56 1.25-1.25V14a1 1 0 1 1 2 0v3.75A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75V6.25A3.25 3.25 0 0 1 6.25 3H10a1 1 0 1 1 0 2zM14 5a1 1 0 1 1 0-2h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V6.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L17.586 5z" />
-                                </svg></a>
-                            <img src="slash-mod.png"
-                                alt="Projet slash mod">
-                        </div>
-                        <h3>Slash Mod</h3>
-                        <p>Site d'un groupe d'informatique.</p>
-                    </div>
-            </section>
             <!-- <section id="blog" class="hidden">
                 <h2>Blog</h2>
-                <hr class="minihr">
                 <div class="blog-container">
                     <div class="blog-item">
                         <div class="blog-image-container">
@@ -344,9 +349,6 @@
             </section> -->
             <section id="contact" class="hidden">
                 <h2>Contact</h2>
-                <hr class="minihr">
-                <p class="aboutme">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                 <div class="map-container">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52612.0688362974!2d-2.047919999928088!3d48.64629192303381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480e81102126bf5d%3A0xf8e97dadb22be12d!2sSaint-Malo!5e1!3m2!1sfr!2sfr!4v1739636302848!5m2!1sfr!2sfr"
