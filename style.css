@@ -500,6 +500,10 @@ hr {
   margin-bottom: 10px;
 }
 
+.skills .skill-title svg {
+  color: #fbe6b9;
+}
+
 .skills h4 {
   color: white;
   font-size: 18px;
@@ -726,7 +730,8 @@ hr {
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
-  width: calc(100% - 20px);
+  width: 100%;
+  resize: vertical;
   padding: 10px;
   margin: 0 auto;
   border: 1px solid #272727;
