@@ -219,6 +219,8 @@ section .aboutme {
   font-size: 16px;
   padding: 0.4em 0.6em; 
   border-radius: 0.5em;
+  margin-bottom: 5px;
+  line-height: 30px;
 }
 
 aside hr {
