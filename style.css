@@ -198,12 +198,14 @@ section .aboutme {
 }
 
 .profile {
+  
   margin-top: 20%;
   text-align: center;
   margin-bottom: 30px;
 }
 
 .profile img {
+  border: 2px solid #fbe6b9;
   width: 150px;
   height: 150px;
   border-radius: 1.5em;
@@ -508,22 +510,6 @@ hr {
   color: #777777;
   font-size: 16px;
   margin: 0;
-}
-
-.progress-bar {
-  background-color: #3f3f3f;
-  border-radius: 8px;
-  overflow: hidden;
-  width: 60%;
-  height: 10px;
-  margin-left: 10px;
-}
-
-.progress {
-  background-image: linear-gradient(to right, #fbe6b9, #f3b667);
-  height: 100%;
-  border-radius: 8px;
-  transition: width 0.3s ease;
 }
 
 @media (max-width: 768px) {
